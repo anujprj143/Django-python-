@@ -76,7 +76,7 @@ print(result)
 
 # Common mistake:
 print(giveMeHello)
-
+# give the error because the parenthesis is absent here after the function.
 
 # ######################
 # Example 3
