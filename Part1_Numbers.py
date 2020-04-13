@@ -117,8 +117,7 @@ my_taxes = my_income*tax_rate
 my_taxes
 
 
-# So what have we learned? We learned some of the basics of numbers in Python.
+# We learned some of the basics of numbers in Python.
 # We also learned how to do arithmetic and use Python as a basic calculator.
 # We then wrapped it up with learning about Variable Assignment in Python.
 #
-# Up next we'll learn about Strings!
