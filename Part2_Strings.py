@@ -12,7 +12,7 @@
 # This idea of a sequence is an important one in Python and we will touch
 # upon it later on in the future.
 #
-# In this lecture we'll learn about the following:
+# Now we'll learn about the following:
 #
 #     1.) Creating Strings
 #     2.) Printing Strings
@@ -45,7 +45,7 @@
 "Now I'm ready to use the single quotes inside a string!"
 
 
-# Now let's learn about printing strings!
+# Now learn about printing strings!
 
 # ## Printing a String
 #
@@ -78,10 +78,10 @@ len('Hello World')
 
 # ## String Indexing
 # We know strings are a sequence, which means Python can use indexes to call
-# parts of the sequence. Let's learn how this works.
+# parts of the sequence.
 #
 # In Python, we use brackets [] after an object to call its index. We should
-# also note that indexing starts at 0 for Python. Let's create a new object
+# also note that indexing starts at 0 for Python. Now create a new object
 # called s and the walk through a few examples of indexing.
 
 # Assign s as a string
@@ -113,15 +113,15 @@ s[2]
 s[1:]
 
 
-# Note that there is no change to the original s
+# Note- there is no change to the original s
 s
 
 # Grab everything UP TO the 3rd index
 s[:3]
 
 
-# Note the above slicing. Here we're telling Python to grab everything from
-# 0 up to 3. It doesn't include the 3rd index. You'll notice this a lot in
+# Note-the above slicing. Here we're telling Python to grab everything from
+# 0 up to 3. It doesn't include the 3rd index. we notice this a lot in
 # Python, where statements and are usually in the context of "up to, but not including".
 
 #Everything
@@ -132,11 +132,11 @@ s[:]
 # Last letter (one index behind 0 so it loops back around)
 s[-1]
 
-# Grab everything but the last letter
+# Grab everything but not the last letter
 s[:-1]
 
 
-# We can also use index and slice notation to grab elements of a sequence by a
+# We  also use index and slice notation to grab elements of a sequence by a
 # specified step size (the default is 1). For instance we can use two colons in
 # a row and then a number specifying the frequency to grab elements. For example:
 
@@ -146,7 +146,7 @@ s[::1]
 # Grab everything, but go in step sizes of 2
 s[::2]
 
-# We can use this to print a string backwards
+# We use this to print a string backwards
 s[::-1]
 
 
@@ -157,7 +157,7 @@ s[::-1]
 
 s
 
-# Let's try to change the first letter to 'x'
+# We can try to change the first letter to 'x'
 s[0] = 'x'
 
 
@@ -210,9 +210,9 @@ s.split()
 # Split by a specific element (doesn't include the element that was split on)
 s.split('W')
 
-# There are many more methods than the ones covered here.
+# There are many more methods than the ones mentioned here.
 
-########################
+#
 ### Print Formatting ###
 ########################
 
