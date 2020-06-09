@@ -59,3 +59,22 @@ print(x)
 f = lambda x:x**2
 
 
+# Enclosing function locals
+#
+# This occurs when we have a function inside a function (nested functions)
+#
+
+name = 'This is a global name'
+
+def greet():
+    # Enclosing function
+    name = 'Sammy'
+
+    def hello():
+        print('Hello '+name)
+
+    hello()
+
+greet()
+
+
